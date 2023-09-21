@@ -39,6 +39,7 @@ const StateFulForm = () => {
 
     return (
       <div>
+        <h2>StateFul Form</h2>
         <form onSubmit={handleSubmit}>
           <input
             onChange={handleNameChange}
